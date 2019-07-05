@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Implementa o padrão Material no EdiText -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilEmail"
         android:layout_width="match_parent"
@@ -15,15 +16,21 @@
         android:layout_marginTop="32dp"
         android:layout_marginRight="32dp">
 
+        <!-- android:inputType determina o tipo de entrada de dados -->
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/et_email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- app:counterEnabled Conta a quantidade de caracteres digitados
+         app:counterMaxLength Limita a quantidade de caracteres lidos
+         app:passwordToggleEnabled Mostra a senha
+    -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilPassword"
         android:layout_width="match_parent"
