@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Email</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="btn_create">Create</string>
+    <string name="tv_email">Email registered</string>
+    <string name="tv_password">Password registered</string>
+</resources>
